@@ -1,0 +1,23 @@
+# Core training stack
+unsloth
+trl
+peft
+transformers
+datasets
+accelerate
+bitsandbytes
+kagglehub
+
+# Model and serialisation dependencies
+protobuf==6.33.5
+sentencepiece
+safetensors
+huggingface_hub
+
+# Memory-efficient cross-entropy
+cut-cross-entropy
+
+# CUDA-specific kernels are installed from the Kaggle offline wheel datasets.
+# The original notebook uses:
+# causal_conv1d-1.6.1+cu12torch2.10cxx11abiTRUE-cp312-cp312-linux_x86_64.whl
+# mamba_ssm-2.3.1+cu12torch2.10cxx11abiTRUE-cp312-cp312-linux_x86_64.whl

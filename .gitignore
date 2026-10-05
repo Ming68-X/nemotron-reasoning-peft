@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Notebook and training artifacts
+unsloth_compiled_cache/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+submission.zip
+outputs/*
+!outputs/.gitkeep
+
+# Local data
+data/raw/
+data/processed/
+data/tokenized/
+
+# Editors and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

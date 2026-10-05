@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this repository, cite the associated Kaggle competition and acknowledge the original notebook and public solution-design references."
+title: "Deterministic LoRA Fine-Tuning for Nemotron Reasoning"
+authors:
+  - name: "Ming68"
+year: 2026
+type: software
+url: "https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge"
+keywords:
+  - Kaggle
+  - NVIDIA Nemotron
+  - LoRA
+  - PEFT
+  - MoE
+  - structured reasoning
+  - Cut Cross-Entropy
+references:
+  - type: conference-paper
+    title: "NVIDIA Nemotron Model Reasoning Challenge"
+    authors:
+      - family-names: "Semaan"
+        given-names: "Jamil C"
+      - family-names: "Puget"
+        given-names: "Jean-Francois"
+      - family-names: "Henkel"
+        given-names: "Christof"
+    year: 2026
+    url: "https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge"
